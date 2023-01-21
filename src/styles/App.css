@@ -1,0 +1,221 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    align-content: center;
+    font-family:Arial, Helvetica, sans-serif;
+    /* background-color: #dfdaed → #faaca8; */
+   
+}
+
+/* 
+#form,#locationForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+} */
+
+
+#form-component{
+display: flex;
+}
+
+#heading{
+    text-align: center;
+    margin-top: 2rem;
+    text-decoration-line: underline;
+}
+#img{
+    width: 8rem;
+    height: 8rem;
+    margin-right: 0.5rem;
+    border-radius: 50%;
+    
+}
+#img-preview{
+    width: 8rem;
+    height: 8rem;
+    margin-right: 0.5rem;
+    /* border-radius: 50%; */
+    
+}
+
+/* .containerName{
+    display: flex;
+} */
+
+#abc{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+}
+
+#add-image{
+    /* background-color: aqua; */
+    text-align: center;
+    height: 2.5rem;
+    border-radius: 0.2rem;
+    margin-top: 0.2rem;
+}
+#add-image, .inputs {
+    width: 82rem;
+    
+}
+span{
+    margin: 0.02rem;
+}
+
+.input{
+    width: 92rem;
+}
+.small-input{
+    width: 43rem;
+}
+
+#btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    width: 100rem;
+}
+
+#button{
+    background-color: blue;
+    font-weight: bolder;
+    font-size: medium;
+    color: antiquewhite;
+    width: 11.5vw;
+    height: 5vh;
+    border-radius: 1rem; 
+}
+
+.btn-cont{
+    display: flex;
+    justify-content: center;
+}
+
+#form1,.form2,#form3,#form4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1rem;
+}
+
+
+/* preview css */
+
+.previewContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+#preview-comp{
+    margin-left: 2rem;
+    width:380px;
+    height:580px;
+    margin-top: 1rem;
+    /* margin: 1.56rem; */
+    padding: 0.4rem;
+    border: 2px solid black;
+    border-radius: 1rem;
+    /* box-shadow: 0 0 0.5rem 0.5rem rgb(159, 155, 155); */
+}
+.name-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contacts-container{
+    display: flex;
+    justify-content: center;
+    gap: 1.3rem;
+    margin: 1rem 0;
+    height: auto;
+}
+.add-container{
+    display: flex;
+    justify-content: center;
+    gap: 1.4rem;
+}
+
+.exp-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:0.5rem;
+    
+}
+
+#exp-heading,#edu-heading,#skills-heading{
+    margin: 0.3rem 0;
+    font-weight:900;
+    font-size:small;
+}
+
+#work-desc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.3rem;
+}
+
+.edu-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+#summ-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:1.4rem 0;
+}
+
+.skills-container{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+#list{
+    display: flex;
+    gap: 1rem;
+    
+}
+#list-items{
+    /* display: flex; */
+    background-color: blue;
+    color: white;
+    padding: 0 0.4rem;
+    border-radius: 0.3rem;
+}
+
+#name{
+    font-size:small;
+    font-weight: bolder;
+}
+
+.light-text{
+    font-weight:300;
+    font-size:x-small;
+}
+.lighter-text{
+    font-weight:200;
+    font-size:x-small;;
+}
+.bold-text{
+    font-weight:500;
+    font-size:x-small;;
+}
