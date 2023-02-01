@@ -42,7 +42,7 @@ function BasicsForm() {
                     <h1>Basics</h1>
                 </Grid>
                 <Grid item lg={1} md={2}>
-                    <img src="https://img.freepik.com/free-photo/close-up-young-successful-man-smiling-camera-standing-casual-outfit-against-blue-background_1258-66609.jpg?w=2000" alt="profile"  />
+                    {/* <img src="https://img.freepik.com/free-photo/close-up-young-successful-man-smiling-camera-standing-casual-outfit-against-blue-background_1258-66609.jpg?w=2000" alt="profile"  /> */}
                 </Grid>
                 <Grid item lg={10} md={12} sm={12} xs={12}  id="abc">
                     <TextField id="fullname" className='inputs' width="100%" label="Full Name" variant="outlined" />
